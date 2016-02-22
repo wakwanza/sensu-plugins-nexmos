@@ -1,4 +1,5 @@
 # Sensu::Plugins::Nexmos
+[![Build Status](https://travis-ci.org/wakwanza/sensu-plugins-nexmos.svg?branch=master)](https://travis-ci.org/wakwanza/sensu-plugins-nexmos)
 
 Sensu handler plugin for nexmo sms and voice alerts.
 
