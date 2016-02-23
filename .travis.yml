@@ -12,4 +12,3 @@ rvm:
 script:
   - 'bundle exec rake default'
   - gem build sensu-plugins-nexmos.gemspec
-  - gem install sensu-plugins-nexmos.gem

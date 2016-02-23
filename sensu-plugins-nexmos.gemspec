@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.cert_chain             = ['certs/sensu-plugins.pem']
 
   spec.summary                = 'Sensu plugins handler for notification with nexmo sms and voice'
-  spec.description            = 'Sensu plugins handler for notification with nexmo sms and voice'
+  spec.description            = 'Handler for notification formatted as voice messages or sms texts'
   spec.homepage               = ''
   spec.license                = 'MIT'
   spec.metadata               = { 'maintainer'         => 'wakwanza',
