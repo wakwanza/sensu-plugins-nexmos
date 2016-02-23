@@ -22,3 +22,9 @@ Style/Next:
 
 Style/RedundantParentheses:
   Enabled: false
+
+Style/ExtraSpacing:
+  AllowForAlignment: true
+
+Style/FileName:
+  Enabled: false

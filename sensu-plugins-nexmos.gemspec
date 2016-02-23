@@ -9,16 +9,16 @@ else
 end
 
 Gem::Specification.new do |spec|
-  spec.name          = "sensu-plugins-nexmos"
+  spec.name          = 'sensu-plugins-nexmos'
   spec.version       = SensuPluginsNexmos::Version::VER_STRING
-  spec.authors       = ["wakwanza"]
-  spec.email         = ["wakwanza@co.com"]
+  spec.authors       = ['wakwanza']
+  spec.email         = ['wakwanza@@users.noreply.github.com']
   spec.cert_chain    = ['certs/sensu-plugins.pem']
 
   spec.summary       = 'Sensu plugins handler for notification with nexmo sms and voice'
   spec.description   = 'Sensu plugins handler for notification with nexmo sms and voice'
-  spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.homepage      = ''
+  spec.license       = 'MIT'
   spec.metadata      = { 'maintainer'         => 'wakwanza',
                          'development_status' => 'active',
                          'production_status'  => 'unstable - testing recommended',
@@ -29,16 +29,16 @@ Gem::Specification.new do |spec|
   spec.files         = Dir.glob('{bin,lib}/**/*') + %w(LICENSE README.md)
   spec.platform      = Gem::Platform::RUBY
   spec.executables   = Dir.glob('bin/**/*.rb').map { |file| File.basename(file) }
-  spec.require_paths = ["lib"]
+  spec.require_paths = ['lib']
   spec.required_ruby_version  = '>= 1.9.3'
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
 
   spec.add_runtime_dependency 'nexmo'
   spec.add_runtime_dependency 'sensu-plugin'
 
-  spec.add_development_dependency "bundler"
-  spec.add_development_dependency "rake"
-  spec.add_development_dependency "minitest"
-  spec.add_development_dependency "rubocop"
-  spec.add_development_dependency "rspec"
+  spec.add_development_dependency 'bundler'
+  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'minitest'
+  spec.add_development_dependency 'rubocop'
+  spec.add_development_dependency 'rspec'
 end
